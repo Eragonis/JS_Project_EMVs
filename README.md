@@ -2,7 +2,7 @@
 - JavaScript
 - Mehrere Kleine Applikationen
 ---
-# Branch Tutorial
+## Branch Tutorial
 1. git bach öffnen
 2. in den projekt ortner wechseln
 3. in den Branch wecheln (in dem man arbeitet)
