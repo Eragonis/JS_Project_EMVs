@@ -75,16 +75,50 @@
     });
 
 </script>
-<h2>Celsius zu Kelvin</h2>
 
-<form id="celsius>kelvin">
-    <input type="number" class ="input">
-    <output class ="output"></output>
-    <button type="button" class ="submit">Umrechnen</button>
+
+    <h2>Celsius zu Kelvin</h2>
+
+<form id="celsius-kelvin">
+    <input type="number" id="celsius-input" placeholder="Celsius"> °C in Kelvin:
+    <output id="kelvin-output"> </output>
+    <button type="button" id="convert-celsius">Umrechnen</button>
 </form>
+
 <script>
-    document.getElementById('')
+    document.getElementById('convert-celsius').addEventListener('click', function () {
+        let input = document.getElementById('celsius-input').value;
+        let output = document.getElementById('kelvin-output');
+
+        if (input === '') {
+            output.textContent = 'Bitte eine Zahl eingeben';
+        } else {
+            let kelvin = (parseFloat(input) + 273.15).toFixed(2);
+            output.textContent = `${kelvin} K`;
+        }
+    });
 </script>
 
-</body>
-</html>
+<h2>Kelvin zu Celsius</h2>
+
+<form>
+    <input type="number" id="kelvin-input"> °K in Celsius:
+    <output id="celsius-output"></output>
+    <button type="button" id="convert-kelvin">Umrechnen</button>
+</form>
+<script>
+    document.getElementById('convert-kelvin').addEventListener('click', function () {
+        let input = document.getElementById('kelvin-input').value;
+        let output = document.getElementById('celsius-output');
+        if (input === '') {
+            output.textContent = 'Bitte eine Zahl eingeben';
+        }
+        else {
+            let celsius = ((parseFloat(input) - 273.15).toFixed(2));
+            document.getElementById('kelvin-output').textContent = `${celsius} K`;
+        }
+    });
+
+</script>
+    </body>
+    </html>
