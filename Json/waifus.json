@@ -52,5 +52,40 @@
         "name": "Asuna",
         "hair_color": "Braun",
         "Characteristic_properties": "Kann Gut kämpfen, Stark. Cute"
+    },
+    {
+        "name": "Fenrys",
+        "hair_color": "Weiss",
+        "Characteristic_properties": "SIe ist ein Fangzahnwolf, Stark, schnell, und sehr cute"
+    },
+    {
+        "name": "Rem",
+        "hair_color": "Blau",
+        "Characteristic_properties": "Maid, ist neben ihrer Schwester Ram eine Magd im Dienst von Markgraf Roswaal L Mathers"
+    },
+    {
+        "name": "Makima",
+        "hair_color": "Rötlich",
+        "Characteristic_properties": "Packt mit einen Mächtigen Teufel, anfürerin von der Teufelsjäger Tokio"
+    },
+    {
+        "name": "Ackerman Mikasa",
+        "hair_color": "Schwarz",
+        "Characteristic_properties": "ist im Aufklärungstruppe, stark. Tötet Titanen ohne zu zögern."
+    },
+    {
+        "name": "Raphtalia",
+        "hair_color": "Braun",
+        "Characteristic_properties": "**"
+    },
+    {
+        "name": "Esdeath",
+        "hair_color": "Blau",
+        "Characteristic_properties": "**"
+    },
+    {
+        "name": "Kamui Kanna",
+        "hair_color": "Weiss",
+        "Characteristic_properties": "**"
     }
 ]
